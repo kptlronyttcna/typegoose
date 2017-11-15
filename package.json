@@ -20,8 +20,10 @@
   "typings": "lib/typegoose.d.ts",
   "author": "Akos Szokodi <akos@codingsans.com> (http://codingsans.com)",
   "license": "MIT",
+  "peerDependencies": {
+    "@types/mongoose": ">= 4.7.15 < 5",
+  },
   "dependencies": {
-    "@types/mongoose": "^4.7.15",
     "lodash": "^4.17.4",
     "mongoose": "^4.11.1",
     "reflect-metadata": "^0.1.8",
